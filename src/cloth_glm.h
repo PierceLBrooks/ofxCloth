@@ -1,3 +1,6 @@
+#ifndef CLOTH_GLM_H
+#define CLOTH_GLM_H
+
 #include "ofMain.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp>
@@ -295,3 +298,6 @@ public:
 	}
 
 };
+
+#endif
+

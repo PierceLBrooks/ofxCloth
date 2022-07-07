@@ -1,3 +1,6 @@
+#ifndef CLOTH_H
+#define CLOTH_H
+
 #include "ofMain.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp>
@@ -30,3 +33,6 @@ class Clothing
 
 	void drawCloth( bool wire );
 };
+
+#endif
+
